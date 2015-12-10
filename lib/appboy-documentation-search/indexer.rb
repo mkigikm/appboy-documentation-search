@@ -39,6 +39,7 @@ module Jekyll
       end
 
       def generate(site)
+        Jekyll.logger.info('Appboy Documentation Search:', 'Indexing')
         Dir.glob('_collections/*/*.md').each do |filename|
           url_base = filename.split('/')[1]
           index(url_base, filename)
