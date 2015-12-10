@@ -1,1 +1,1 @@
-require 'indexer.rb'
+require 'appboy-documentation-search/indexer'
