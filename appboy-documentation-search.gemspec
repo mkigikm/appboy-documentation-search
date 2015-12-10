@@ -11,5 +11,5 @@ Gem::Specification.new do |s|
   s.homepage = 'https://github.com/mkigikm/appboy-documentation-search'
   s.require_paths = ['lib']
 
-  s.add_runtime_dependency 'json', '~> 0'
+  s.add_runtime_dependency 'json', '~> 1.8'
 end
